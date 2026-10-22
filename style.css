@@ -1,0 +1,8 @@
+:root{--bg:#000;--fg:#f4ecd8;--muted:#b9ad94;--gold:#e8b356}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 Georgia,"Times New Roman",serif}
+main{max-width:640px;margin:0 auto;padding:72px 20px 56px}
+.mark{font-family:Cinzel,serif;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-size:28px;margin:0 0 6px}
+h2{font-family:Cinzel,serif;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-size:15px;margin:36px 0 8px}
+p,li{color:var(--fg)} .muted{color:var(--muted);font-size:15px}
+a{color:var(--gold)} footer{margin-top:56px;color:var(--muted);font-size:14px}
